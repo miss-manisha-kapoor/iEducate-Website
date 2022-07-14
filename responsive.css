@@ -1,24 +1,32 @@
 @media only screen and (max-width: 1140px) {
     .nav-list {
         flex-direction: column;
-
+       
     }
-
-    .nav-list li {
+    .nav-list li{
         opacity: 100px;
-        margin: auto;
-        padding: 35px;
-        font-size: 55px;
+        margin:auto;
+        padding:40px;
+        font-size:40px;
     }
-
-    .logo {
+    .logo{
         justify-content: center;
     }
+         
+    
 
     .navbar {
         flex-direction: column;
         transition: all 0.7s ease-out;
-        height: 778px;
+        height: 72px;
+        
+
+
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
 
     }
 
@@ -37,12 +45,11 @@
     }
 
     .h-nav-resp {
-        height: 72px;
+        height: 400px;
     }
 
     .v-class-resp {
-        opacity: 0;
-
+      opacity: 0;
     }
 
     .section {
@@ -68,7 +75,7 @@
     }
 
     .paras {
-        padding: 0px;
+        padding: 0;
     }
 
     .secondhalf img {
