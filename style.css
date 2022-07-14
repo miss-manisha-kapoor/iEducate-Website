@@ -4,7 +4,7 @@
     padding: 0;
 
 }
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,6 @@ html {
 .logo img {
     width: 40%;
     border: 1px solid white;
-    /* border-radius: 100%; */
 }
 
 .navbar {
@@ -34,7 +33,6 @@ html {
 
 .nav-list {
     width: 70%;
-    /* background-color: black; */
     display: flex;
     align-items: center;
    
@@ -61,7 +59,6 @@ html {
 }
 
 .rightnav {
-    /* background-color: pink; */
     width: 30%;
     text-align: right;
     padding: 0 23px;
@@ -113,6 +110,7 @@ html {
     border-radius: 100px;
     display: block;
     margin: auto;
+    padding: 10px;
 }
 
 .text-big {
